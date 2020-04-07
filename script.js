@@ -1,21 +1,21 @@
 $(document).ready(function() {
-  $(".navbar-toggler").click(function() {
-    $(".navbar-toggler").toggleClass("change");
-  });
+  // $(".navbar-toggler").click(function() {
+  //   $(".navbar-toggler").toggleClass("change");
+  // });
 
-  // window scroll
+  // // window scroll
 
-  $(window).scroll(function() {
-    let position = $(this).scrollTop();
+  // $(window).scroll(function() {
+  //   let position = $(this).scrollTop();
 
-    if (position >= 300) {
-      $(".navbar").addClass("navbar-background");
-      $(".navbar").addClass("fixed-top");
-    } else {
-      $(".navbar").removeClass("navbar-background");
-      $(".navbar").removeClass("fixed-top");
-    }
-  });
+  //   if (position >= 300) {
+  //     $(".navbar").addClass("navbar-background");
+  //     $(".navbar").addClass("fixed-top");
+  //   } else {
+  //     $(".navbar").removeClass("navbar-background");
+  //     $(".navbar").removeClass("fixed-top");
+  //   }
+  // });
   //smooth scroll
   $(".nav-item a").click(function(link) {
     link.preventDefault();

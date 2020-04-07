@@ -3,7 +3,7 @@
 body{
     font-family: 'Courier Prime', monospace;
     background: #f1fffa;
-    /* overflow-x:hidden; */
+    overflow-x:hidden;
 
 }
 .icon-top{
@@ -99,10 +99,6 @@ body{
   transition: background 2s ease;
 }
 
-.nav-active:hover {
-  background: #2a9134;
-}
-
 
 
 /*#################banner##############*/
@@ -111,9 +107,8 @@ body{
   padding-right: 150px;
 }
 
-.item-1,
-.item-2,
-.item-3 {
+.item-1{
+  max-width:70vh;
   min-height: 60vh;
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 95%);
 
@@ -121,7 +116,7 @@ body{
 
 
 .item-1 {
-  background: linear-gradient(to right,rgba(34, 170, 153, 0.5), rgba(34, 170, 153, 0.5)), url(img/banner-2.jpeg) center/cover fixed no-repeat; ;
+  background: linear-gradient(to right,rgba(34, 170, 153, 0.5), rgba(34, 170, 153, 0.5)), url(img/banner-2.jpeg) center/cover fixed repeat;
 }
 
 .no-padding {
@@ -166,7 +161,7 @@ body{
 
 .resume{
   border: #eaf8f4 !important;
-  background: #4bc6fb !important;
+  background: #2a9 !important;
 }
 
 /*#############projects##########*/
