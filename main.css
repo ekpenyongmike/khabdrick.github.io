@@ -243,7 +243,7 @@ body{
 }
 
 .value-icon {
-  font-size: 40px;
+  font-size: 60px;
   color: #f1fffa;
   background: #242424;
   padding: 25px 35px;
@@ -260,7 +260,7 @@ body{
   position: absolute;
   border-radius: 50%;
   display: inline-block;
-  font-size: 10px;
+  font-size: 20px;
   top: -12%;
   left: 57%;
   transition: all 2s ease;
