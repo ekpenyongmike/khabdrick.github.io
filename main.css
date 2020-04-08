@@ -3,14 +3,14 @@
 body{
     font-family: 'Courier Prime', monospace;
     background: #f1fffa;
-    overflow-x:hidden;
+    /*overflow-x:hidden;*/
 
 }
 .icon-top{
     background: rgb(185, 201, 192);
 }
 .icon-top a{
-    color: #f1aa67;
+    color: #2a9;
     font-size: 25px;
     transition:color 0.5s ease;
 }
@@ -50,7 +50,11 @@ body{
 } */
 
 
+/*.navbar-toggler {
+  border: 3px solid #2a9134;
+  padding: 3px;
 
+}*/
 .bar1,
 .bar2,
 .bar3 {
@@ -104,13 +108,13 @@ body{
 /*#################banner##############*/
 .slide-des{
   padding-bottom: 10px;
-  padding-right: 150px;
+  /*padding-right: 150px;*/
 }
 
 .item-1{
   /* max-width:70vh; */
-  min-height: 70vh;
-  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 95%);
+  min-height: 50vh;
+  /*clip-path: polygon(0 0, 100% 0, 100% 85%, 0 95%);*/
 
 }
 
@@ -120,7 +124,9 @@ body{
 }
 
 .no-padding {
-  padding: 0;
+  padding: 0px !important;
+  /*margin-left: 0px !important;*/
+  /*border:0px !important;*/
 }
 
 
@@ -233,7 +239,7 @@ body{
 /*############values##############*/
 
 .value {
-  position: relative
+  position: relative;
 }
 
 .value-icon {

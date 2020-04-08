@@ -1,9 +1,9 @@
 $(document).ready(function() {
-  // $(".navbar-toggler").click(function() {
-  //   $(".navbar-toggler").toggleClass("change");
-  // });
+  $(".navbar-toggler").click(function() {
+    $(".navbar-toggler").toggleClass("change");
+  });
 
-  // // window scroll
+  // window scroll
 
   // $(window).scroll(function() {
   //   let position = $(this).scrollTop();
@@ -16,6 +16,7 @@ $(document).ready(function() {
   //     $(".navbar").removeClass("fixed-top");
   //   }
   // });
+  
   //smooth scroll
   $(".nav-item a").click(function(link) {
     link.preventDefault();
